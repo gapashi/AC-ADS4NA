@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Elastic Stretch';
+    src: url(https://www.dafont.com/pt/elastic-stretch.font);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0E1820;
+    background-image: url(../imgs/agents-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    opacity: 1;
+}
+
+nav{
+    width: 100%; /* 100% da largura da tela */
+    height: 55px; /* Altura fixa de 50 pixels */ 
+    background-color: #400B19;
+}
+
+nav ul {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: left; /* Distribute space between items */
+    padding: 0 20px; /* Add horizontal padding for spacing */
+    font-family: 'Elastic Stretch';
+    font-size: 20px;
+}
+
+nav label{
+    margin: 10px;
+    color: #EEE8E3;
+}
+
+.search-box{
+    background-color: #400B19;
+}
+
+.spotify{
+    font-size: 15px;
+}
+
+#menu-toggle{
+    width: 50px;
+    height: 50px;
+}
+
+#dropdown-menu {
+    display: none; /* Esconde o menu suspenso por padrão */
+    position: absolute; /* Posicionamento para alinhar com a imagem */
+    background-color: #400B19; /* Cor de fundo do menu (personalize) */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra (opcional) */
+    z-index: 1; /* Garante que o menu fique acima do conteúdo */
+}
+  
+.dropdown:hover #dropdown-menu {
+    display: block; /* Mostra o menu ao passar o mouse sobre a imagem */
+}
+
+header{
+    display: flex;
+    width: 950px;
+    height: 300px;
+    align-items: center;
+    justify-content: right;
+}
+
+#logo{
+    width: 400px;
+    height: 250px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin-bottom: 20px;
+    color: #EEE8E3;
+}
+
+.group-1, .group-2, .group-3, .group-4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.group-1 img, .group-2 img, .group-3 img, .group-4 img{
+    width: 100px;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,5 @@
+vermelho forte = #FF4656
+rosa = #CD4958
+branco = #EEE8E3
+vermeho escuro = #400B19
+preto = #0E1820
