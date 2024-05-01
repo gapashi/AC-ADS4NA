@@ -10,11 +10,10 @@
 
 body{
     background-color: #0E1820;
-    background-image: url(../imgs/agents-background.png);
+    background-image: linear-gradient(rgb(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3)), url(../imgs/agents-background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    opacity: 1;
 }
 
 nav{
@@ -64,7 +63,7 @@ nav label{
 
 header{
     display: flex;
-    width: 950px;
+    flex-direction: column;
     height: 300px;
     align-items: center;
     justify-content: right;
@@ -79,21 +78,23 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 p{
+    font-family: 'Elastic Stretch';
     margin-bottom: 20px;
     color: #EEE8E3;
 }
 
 .group-1, .group-2, .group-3, .group-4{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
 }
 
 .group-1 img, .group-2 img, .group-3 img, .group-4 img{
-    width: 100px;
+    width: 180px;
     height: 200px;
 }
 
